@@ -1,0 +1,84 @@
+body {
+    top:0px;
+    left: 0px;
+    padding:0px;
+    margin:0px;
+    font-family: sans-serif;
+}
+
+.centered{
+    width:400px;
+    margin:auto;
+}
+
+.button{
+    background-color: #0175A4;
+    color: #fff;
+}
+
+.header {
+    background-color: #7ABDF2;
+    background-image: url("../images/bird.jpg");
+    background-repeat:no-repeat;
+    background-position:0 -301px;
+}
+
+.header--controllerpage {
+    margin-bottom: 20px;
+}
+.closebutton{
+    border: solid 1px #fff;
+    color: #fff;
+    width: 19px;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.blender{
+    padding-top:14px;
+    padding-bottom: 5px;
+
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 72%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(72%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 72%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 72%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 72%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 72%,rgba(0,0,0,0.65) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 */
+
+}
+.headline {
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.note {
+    font-size:0.7em;
+}
+
+.input--marginbottom {
+    margin-bottom: 16px;
+}
+
+input {
+    border: 1px solid #BBBBBB;
+    border-radius: 5px 5px 5px 5px;
+    padding:8px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}

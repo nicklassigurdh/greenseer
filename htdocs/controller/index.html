@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Controller page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style/style.css">
+    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../js/controller.js"></script>
+
+
+</head>
+<body>
+    <div class="header header--controllerpage">
+        <div class="blender">
+            <div class="centered headline">
+                Nicklas remote viewer: Greenseer
+            </div>
+        </div>
+    </div>
+    <div class="centered">
+        <label>1) Peka alla dina enheter till den här maskinen:</label>
+        <input type="text" value="http://example.se:1234/" name="" id="exampleUrl" READONLY/>
+        <p class="note">*) Om du kör greenseer på din lokala maskin se till att du surfar hit med ett alias eller IP:nummer. Localhost fungerar inte på enheterna.</p>
+    </div>
+    <div class="centered">
+        <label for="wargUrl">2) Ange en URL med http://</label>
+        <input type="text" id="wargUrl" value="http://example.se:1234/" name="wargUrl" class="input--marginbottom"/>
+        <input type="button" id="postIt" value="Remote view" class="button"/>
+    </div>
+    <div class="centered">
+        <p class="note">Har du några funderingar så fungerar den på samma sätt som i <a href="http://www.youtube.com/watch?feature=player_embedded&v=7NvzRfyhd5Q" target="_new">den här filmen</a>. Fast "Nicklas remote viewer: Greenseer" är bättre, snabbare, snyggare, sexigare och byggd på nodejs.. så det så...</p>
+        <p class="note"><a href="how.html">Hur fungerar det?</a></p>
+    </div>
+
+</body>
+</html>
