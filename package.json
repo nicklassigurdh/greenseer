@@ -2,6 +2,7 @@
     "name": "greenseer",
     "version": "0.1.0",
     "devDependencies": {
-        "socket.io": ""
+        "socket.io": "0.9.16",
+        "express": "3.3.1"
     }
 }

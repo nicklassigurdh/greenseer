@@ -6,15 +6,16 @@
         var getWargUrl = function(){
             $.ajax({
                 type: "GET",
-                url: '/storedData',
+                url: '/api/getWargUrl',
                 success: function(data){
-                    if(oldUrl !== data.wargUrl){
+                    var dta = JSON.parse(data);
+                    if(oldUrl !== dta.wargUrl){
 
                         //sen ladda iframen om det är en url.
-                        if(data.wargUrl){
-                            var start = data.wargUrl.substring(0,7);
+                        if(dta.wargUrl){
+                            var start = dta.wargUrl.substring(0,7);
                             if(start.toLowerCase() === 'http://'){
-                                $('#theFrame').attr('src',data.wargUrl);
+                                $('#theFrame').attr('src',dta.wargUrl);
                             }
 
                             //se tilla tt jag kollar mot rätt värde
@@ -22,6 +23,9 @@
                         }
 
                     }
+                },
+                error: function () {
+                  console.log('fel...');
                 },
                 dataType: 'json'
             });

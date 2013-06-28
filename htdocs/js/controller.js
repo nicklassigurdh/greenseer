@@ -6,7 +6,7 @@
 
             $.ajax({
                 type: "POST",
-                url: '/controller/index.html',
+                url: '/api/setWargUrl/',
                 data: {'wargUrl' : $('#wargUrl').val() },
                 success: function(data){
                     //alert('posted...');
