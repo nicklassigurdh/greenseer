@@ -1,5 +1,6 @@
 (function(){
     $(function(){
+
         $('#postIt').on('click',function(){
 
             console.log('post to the server')
@@ -9,8 +10,7 @@
                 url: '/api/setWargUrl/',
                 data: {'wargUrl' : $('#wargUrl').val() },
                 success: function(data){
-                    //alert('posted...');
-
+                    console.log('returned data: '+data);
                 },
                 dataType: 'html'
             });
