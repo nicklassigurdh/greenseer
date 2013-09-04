@@ -6,7 +6,7 @@ testbench for multiple devices
 
 
 Instructions:  
-  1) copy to yout "server"  
+  1) copy greenseer.js, htdocs, package.json files to aproptiate folder on your "server" (a computer somewhere on your network)
   2) do install so you get what you need (npm install)  
   3) run the greenseer (node greenseer.js)  
   4) point all your devices to your server (http://ip:port)  
